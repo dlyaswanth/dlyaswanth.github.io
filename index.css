@@ -17,6 +17,9 @@ h2,h3,h5{
 .proimage{
   width:90% !important;
 }
+hr{
+  border-top: 1px solid black !important;
+}
 .fab1{
     color:blue;
     float: left;

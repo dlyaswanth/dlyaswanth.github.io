@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Yaswanth L</h1>
 <h3 align="center">A passionate Programmer and Developer from India</h3>
-![](https://raw.githubusercontent.com/halfrost/halfrost/master/icons/header_.png)
+<img src="https://raw.githubusercontent.com/halfrost/halfrost/master/icons/header_.png" />
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dlyaswanth&label=Profile%20views&color=0e75b6&style=flat" alt="dlyaswanth" /> </p>
 
 <p align="left"> <a href="https://twitter.com/dlyaswanth" target="blank"><img src="https://img.shields.io/twitter/follow/dlyaswanth?logo=twitter&style=for-the-badge" alt="dlyaswanth" /></a> </p>

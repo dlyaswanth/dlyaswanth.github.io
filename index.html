@@ -56,8 +56,13 @@
         let fullTime = moment().diff(moment("05/01/2022"), 'months') + 1
         let dur = moment.duration(intern + fullTime, "months",true);
         let exp = dur.asYears().toFixed(1);
+        fullTime = moment.duration(fullTime,"months",true)
+        fullTime = fullTime.asMonths().toFixed(1)
+        const years = Math.floor(fullTime / 12)
+        const months = Math.floor(fullTime % 12)
+        // console.log(exp,dur,' EXP ')
         function loaded() {
-            document.getElementById("fulltime").innerHTML = fullTime;
+            document.getElementById("fulltime").innerHTML = `${years} ${years == 1 ?'Year':'Years'} ${months} ${months == 1 ?'Month':'Months'}`;
             document.getElementById("exp").innerHTML = exp;
             
         }
@@ -124,13 +129,13 @@
                                                 Codingmart Technologies
                                             </a>
                                             <br />
-                                            <small>May 2022 - Present - <span id="fulltime"></span> Months</small>
+                                            <small>May 2022 - Present - <span id="fulltime"></span></small>
                                         </p>
                                     </div>
                                 </li>
                                 <li>
                                     <div>
-                                        <p>Product Engineer Intern -
+                                        <p>Product Engineer Trainee -
                                             <a href="https://codingmart.com/" target="_blank">
                                                 Codingmart Technologies
                                             </a>
